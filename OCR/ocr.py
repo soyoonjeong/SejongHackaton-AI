@@ -2,6 +2,9 @@
 #!pip install pdf2image pillow
 #!sudo apt-get install -y poppler-utils
 
+# 1. pdf to image
+# 2. image to txt
+
 import os
 from pdf2image import convert_from_path
 import os
